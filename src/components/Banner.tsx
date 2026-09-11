@@ -4,15 +4,17 @@ const Banner = () => {
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={BannerImg} alt="" className="h-[700px] w-[700px] " />
-        
+
         <div>
-          <h1 className="text-4xl font-bold ">
+          <h1 className="text-5xl font-bold ">
             Build Your Ideal <br />
-            <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent ">Development Stack</span>
+            <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent ">
+              Development Stack
+            </span>
           </h1>
           <p className="py-6">
             Explore frontend, backend, database, and tooling options, <br />
-            compare them side by side, and put together the stack that fits your
+            compare them side by side, and put together the stack that fits your <br />
             next project.
           </p>
           <div className="gap-8">
