@@ -2,7 +2,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from "../assets/logo-text.png";
 const Nav = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm container mx-auto">
+    <div className="navbar bg-base-100 shadow-sm container mx-auto sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
