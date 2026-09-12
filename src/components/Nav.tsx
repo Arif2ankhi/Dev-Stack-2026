@@ -22,7 +22,7 @@ const Nav = () => {
             <a>Home</a>
           </li>
           <li>
-            <a>stacknologies</a>
+            <a>Technologies</a>
           </li>
           <li>
             <a>Project</a>

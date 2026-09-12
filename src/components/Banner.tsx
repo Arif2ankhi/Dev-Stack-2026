@@ -1,7 +1,7 @@
 import BannerImg from "../assets/banner-stack.png";
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 min-h-screen container mx-auto">
+    <div className="hero bg-base-200  container mx-auto">
     {/* // <div className="hero bg-linear-to-r/hsl from-indigo-200 to-teal-200 min-h-screen container mx-auto"> */}
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={BannerImg} alt="" className="h-[700px] w-[700px] " />
