@@ -26,7 +26,7 @@ function App() {
         <Stacks stacksPromise={stacksPromise}></Stacks>
       </Suspense>
       
-    {/* <button className="btn btn-primary" >Buy Now</button> */}
+  
      <Footer></Footer>  
     </>
   )
