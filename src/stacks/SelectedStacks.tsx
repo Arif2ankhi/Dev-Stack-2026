@@ -1,20 +1,11 @@
 
-
-// const SelectedStacks = () => {
-//     return (
-//         <div>
-//             <h2>Your Stack</h2>
-//         </div>
-//     );
-// };
-
-// export default SelectedStacks;
 import { RxCross2 } from "react-icons/rx";
 import type { Istacks } from "../types/stack";
 
 interface SelectedStacksProps {
   selectedStacks: Istacks[];
-  onRemoveStack: (id: string) => void;
+//   onRemoveStack: (id: string) => void;
+  onRemoveStack: (stack: Istacks) => void;
   onRemoveAll: () => void;
 }
 
@@ -58,7 +49,7 @@ const SelectedStacks = ({
               </div>
 
               <button
-                onClick={() => onRemoveStack(item.id)}
+                onClick={() => onRemoveStack(item)}
                 className="text-gray-400 hover:text-red-500 p-1 transition-colors"
               >
                 <RxCross2 size={16} />

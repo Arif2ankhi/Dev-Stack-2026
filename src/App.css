@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --background-image-brand-gradient: linear-gradient(to right, #FF5722, #D81B7E, #7C3AED);
+}
+
+/* reusable utility classes */
+.text-brand-gradient {
+  background-image: var(--background-image-brand-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-brand-gradient {
+  background-image: var(--background-image-brand-gradient);
+}

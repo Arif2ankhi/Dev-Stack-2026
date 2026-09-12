@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@layer utilities {
+
+  .text-brand-gradient {
+    background-image: linear-gradient(to right, #FF5722, #D81B7E, #7C3AED);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+
+  .bg-brand-gradient {
+    background-image: linear-gradient(to right, #FF5722, #D81B7E, #7C3AED);
+  }
+}
+

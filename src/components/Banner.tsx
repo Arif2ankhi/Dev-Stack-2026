@@ -1,4 +1,5 @@
 import BannerImg from "../assets/banner-stack.png";
+
 const Banner = () => {
   return (
     <div className="hero bg-base-200  container mx-auto">
@@ -9,7 +10,10 @@ const Banner = () => {
         <div>
           <h1 className="text-5xl font-bold ">
             Build Your Ideal <br />
-            <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent ">
+            {/* <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent ">
+              Development Stack
+            </span> */}
+            <span className="text-brand-gradient">
               Development Stack
             </span>
           </h1>
@@ -19,7 +23,8 @@ const Banner = () => {
             next project.
           </p>
           <div className="gap-8">
-            <button className="btn btn-primary bg-linear-to-r from-orange-500 to-pink-400 border-none">
+            {/* <button className="btn btn-primary bg-linear-to-r from-orange-500 to-pink-400 border-none"> */}
+            <button className=" btn btn-primary bg-brand-gradient">
               Explore Technologies
             </button>
             <button className="btn btn-Primary border-2 p-4 ml-3 border-gray-200">
