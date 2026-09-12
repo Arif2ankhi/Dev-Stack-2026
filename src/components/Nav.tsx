@@ -4,6 +4,7 @@ const Nav = () => {
   return (
     // <div className="navbar bg-base-100 shadow-sm container mx-auto sticky top-0 z-50  ">
     <div className="navbar bg-linear-to-r/increasing from-indigo-300 to-teal-200 shadow-sm container mx-auto sticky top-0 z-50  ">
+    
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +38,8 @@ const Nav = () => {
       </div>
       <div className="navbar-end gap-2">
         <p className="border-none gap-4">Sign In</p>
-        <a className="btn bg-[#D91B7E] rounded-4xl">Sign Up</a>
+        {/* <a className="btn bg-[#D91B7E] rounded-4xl">Sign Up</a> */}
+        <a className="btn bg-[#D91B7E] rounded-4xl text-white">Sign Up</a>
       </div>
     </div>
   );

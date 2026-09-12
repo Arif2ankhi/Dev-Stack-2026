@@ -1,5 +1,3 @@
-
-
 import { use, useState } from "react";
 import type { Istacks } from "../types/stack";
 import AvailableStacks from "./AvailableStacks";
@@ -61,11 +59,9 @@ const handleRemoveStack = (stack: Istacks) => {
   return (
     <div className="container mx-auto mt-12 px-4">
         <ToastContainer/>
-      {/* Page Header */}
       <div className="mb-8">
         <h2 className="font-bold text-4xl lg:text-5xl">
-          Explore the{" "}
-          {/* <span className="bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent"> */}
+          Explore the
           <span className="text-brand-gradient bg-clip-text text-transparent">
             Technologies
           </span>
@@ -75,9 +71,9 @@ const handleRemoveStack = (stack: Istacks) => {
         </p>
       </div>
 
-      {/* Responsive Main Layout */}
+      
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 items-start">
-        {/* Left Side: 3 Columns for Cards */}
+        
         <div className="lg:col-span-3">
           <AvailableStacks
             stacks={stacks}
@@ -85,8 +81,6 @@ const handleRemoveStack = (stack: Istacks) => {
             onAddStack={handleAddStack}
           />
         </div>
-
-        {/* Right Side: 4th Column for Selected Stack */}
         <div className="lg:col-span-1 lg:sticky lg:top-6">
           <SelectedStacks
             selectedStacks={selectedStacks}
