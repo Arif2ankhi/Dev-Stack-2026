@@ -28,7 +28,7 @@ const AvailableStacks = ({
   onAddStack
 }: AvailableStacksProps) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
       {stacks.map((stack: Istacks) => {
         const isSelected = selectedStacks.some((s) => s.id === stack.id);
         const badgeStyle =
@@ -37,7 +37,8 @@ const AvailableStacks = ({
         return (
           <div
             key={stack.id}
-            className="card bg-base-100 w-full shadow-sm border border-gray-200 rounded-3xl p-2 flex flex-col justify-between"
+            className="card bg-gradient-to-r from-emerald-200 to-blue-300 w-full shadow-sm border border-gray-200 rounded-3xl p-2 flex flex-col justify-between "
+            // className="card bg-gradient-to-r from-cyan-100 to-fuchsia-400 w-full shadow-sm border border-gray-200 rounded-3xl p-2 flex flex-col justify-between "
           >
             <figure className="flex justify-between items-center p-4">
               <img

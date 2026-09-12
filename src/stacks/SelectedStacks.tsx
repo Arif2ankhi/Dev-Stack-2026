@@ -15,10 +15,10 @@ const SelectedStacks = ({
   onRemoveAll,
 }: SelectedStacksProps) => {
   return (
-    <div className="bg-white border border-gray-200 rounded-3xl p-6 shadow-sm">
+    <div className="bg-gradient-to-r from-teal-400 to-purple-200 border border-gray-200 rounded-3xl p-6 shadow-sm">
       <div className="flex justify-between items-baseline mb-4">
         <h2 className="font-bold text-xl text-gray-900">Your Stack</h2>
-        <span className="text-xs text-gray-400 font-medium">
+        <span className="text-xs text-brand-gradient font-bold">
           {selectedStacks.length} Technology Selected
         </span>
       </div>
