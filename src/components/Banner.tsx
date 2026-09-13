@@ -4,7 +4,8 @@ const Banner = () => {
   return (
     <div className="hero bg-base-200  container mx-auto">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img src={BannerImg} alt="" className="h-[700px] w-[700px] " />
+        <img src={BannerImg} alt="" className="h-[600px] w-[600px] " />
+       
 
         <div>
           <h1 className="text-5xl font-bold ">

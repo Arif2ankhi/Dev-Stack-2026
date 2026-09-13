@@ -79,7 +79,8 @@ const AvailableStacks = ({
                   className={`btn rounded-xl w-full border-none transition-colors ${
                     isSelected
                       ? "bg-gray-200 text-gray-400 cursor-not-allowed"
-                      : "bg-black hover:bg-slate-800 text-white"
+                      : "bg-black hover:bg-blue-800 text-white"
+                      // : "bg-brand-gradient"
                   }`}
                 >
                   {isSelected ? "Added to Stack" : "Add to Stack"}
